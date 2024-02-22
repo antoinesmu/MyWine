@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/barre_superieure"
+    tools:context=".ui.scan_bottle.ScanWineFragment"
+    >
+
+    <LinearLayout
+        android:layout_width="409dp"
+        android:layout_height="729dp"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="1dp"
+        tools:ignore="MissingConstraints"
+        android:layout_marginBottom="50dp">
+
+        <TextView
+            android:id="@+id/editTextTextPersonName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="20"
+            android:inputType="textPersonName"
+            android:text="Add your Wine"
+            android:textSize="20dp"
+            android:paddingLeft="40dp"
+            android:paddingRight="20dp"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:textAlignment="center"
+            app:layout_constraintRight_toLeftOf="parent"
+            android:gravity="center_horizontal"
+            android:textColor="@color/cardview_light_background"
+            android:layout_marginBottom="40dp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/image_view_scan_bottle"/>
+
+            <Button
+                android:id="@+id/camera_open"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:width="150dp"
+                android:height="0dp"
+                android:text="Camera"/>
+
+            <EditText
+                android:id="@+id/scan_wine_country"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="4"
+                android:gravity="center_vertical"
+                android:layout_marginLeft="280dp"
+                android:hint="Country"
+                android:textAlignment="center"
+                android:textColorHint="@color/cardview_light_background"
+                android:textColor="@color/cardview_light_background"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                tools:ignore="RtlCompat"
+                android:layout_marginBottom="20dp"
+                />
+
+            <EditText
+                android:id="@+id/scan_wine_year"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="4"
+                android:gravity="center_vertical"
+                android:textColor="@color/cardview_light_background"
+                android:hint="Year"
+                android:layout_marginLeft="330dp"
+                android:textAlignment="center"
+                android:textColorHint="@color/cardview_light_background"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                tools:ignore="RtlCompat"
+                android:layout_marginBottom="20dp"
+                />
+
+
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <EditText
+                android:id="@+id/scan_wine_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="Name of your Wine"
+                android:textColor="@color/cardview_light_background"
+                android:textAlignment="center"
+                android:textColorHint="@color/cardview_light_background"
+                android:ems="20"
+
+                android:gravity="center_horizontal"
+                android:layout_marginBottom="20dp"/>
+        </LinearLayout>
+        <android.support.v7.widget.LinearLayoutCompat
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <EditText
+                android:id="@+id/scan_wine_region"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="Region"
+                android:textColor="@color/cardview_light_background"
+                android:textAlignment="center"
+                android:textColorHint="@color/cardview_light_background"
+                android:ems="10"
+
+                android:gravity="center_horizontal"
+                android:layout_marginBottom="20dp"/>
+            <EditText
+                android:id="@+id/scan_wine_category"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="White, Red, ..."
+                android:textAlignment="center"
+                android:textColorHint="@color/cardview_light_background"
+                android:ems="10"
+                android:textColor="@color/cardview_light_background"
+                android:gravity="center_horizontal"/>
+        </android.support.v7.widget.LinearLayoutCompat>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <EditText
+                android:id="@+id/scan_wine_consumption_date"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="To be consumed in.. "
+                android:textAlignment="center"
+                android:textColorHint="@color/cardview_light_background"
+                android:ems="20"
+                android:textColor="@color/cardview_light_background"
+                android:gravity="center_horizontal"/>
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/scan_wine_add_button"
+            android:layout_width="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:layout_height="50dp"
+            android:width="150dp"
+            android:height="0dp"
+            android:text="add"/>
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>

@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">MyWine</string>
+
+    <!-- welcome_activity -->
+    <string name="welcome_activity_message">Connect my Wine cellar</string>
+    <string name="username">Username</string>
+    <string name="welcome_activity_button">start</string>
+    <string name="title_activity_list_wine">ListWineActivity</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="nav_header_title">My Wine Cellar</string>
+    <string name="nav_header_subtitle">The app for the true wine lovers</string>
+    <string name="nav_header_desc">Navigation header</string>
+
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_list_wine">MyWine</string>
+    <string name="menu_scan_wine">Scan Wine</string>
+    <string name="menu_temp_hum">Temp/Hum</string>
+    <string name="title_activity_setting">SettingActivity</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="setting_welcome_message">My Settings</string>
+    <string name="setting_button_text">Apply changes</string>
+
+</resources>

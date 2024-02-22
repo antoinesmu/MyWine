@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android" >
+    <item>
+        <shape android:shape="rectangle" android:padding="10dp">
+            <stroke android:width="1dp" android:color="@color/app_color" />
+
+            <corners android:radius="20dp"/>
+        </shape>
+    </item>
+    <item android:drawable="@drawable/loupe"
+        android:top="5dp"
+        android:right="0dp"
+        android:bottom="0dp"
+        android:left="6dp"
+        android:width="17dp"
+        android:height="17dp"/>
+
+</layer-list>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.example.myfirstapp.ui.list_wine.ListWineFragment"
+        android:label="@string/menu_list_wine"
+        tools:layout="@layout/fragment_list_wine" />
+
+    <fragment
+        android:id="@+id/nav_gallery"
+        android:name="com.example.myfirstapp.ui.scan_bottle.ScanWineFragment"
+        android:label="@string/menu_scan_wine"
+        tools:layout="@layout/fragment_scan_bottle" />
+
+    <fragment
+        android:id="@+id/nav_slideshow"
+        android:name="com.example.myfirstapp.ui.temp_hum.SlideshowFragment"
+        android:label="@string/menu_temp_hum"
+        tools:layout="@layout/fragment_temp_hum" />
+</navigation>

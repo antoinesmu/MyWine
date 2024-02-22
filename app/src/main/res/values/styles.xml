@@ -1,0 +1,17 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/menu_barre</item>
+        <item name="colorPrimaryDark">@color/barre_superieure</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="detail_page" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="strokeWidth">1dp</item>
+        <item name="strokeColor">@color/black</item>
+    </style>
+
+</resources>

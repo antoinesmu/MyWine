@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SettingActivity">
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:theme="@style/AppTheme.AppBarOverlay">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="?attr/colorPrimary"
+            app:popupTheme="@style/AppTheme.PopupOverlay" />
+
+
+    </android.support.design.widget.AppBarLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_marginTop="55dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/setting_welcome_message"
+            android:gravity="center"
+            android:textSize="20dp"
+            android:textColor="@color/black"
+            android:fontFamily="sans-serif" />
+
+        <EditText
+            android:id="@+id/setting_activity_editText"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:hint="@string/username"
+            android:textColor="@color/black"
+            android:layout_gravity="left"/>
+
+        <Button
+            android:id="@+id/setting_activity_button"
+            android:layout_marginTop="100dp"
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:background="@drawable/button_shape"
+            android:textColor="@color/app_color"
+            android:text="@string/setting_button_text"
+            android:layout_gravity="center"/>
+
+
+    </LinearLayout>
+
+
+</android.support.design.widget.CoordinatorLayout>
